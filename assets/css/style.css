@@ -513,6 +513,16 @@ a.left_icon {
     gap: 30px;
 }
 
+ul.Bath_list li p {
+    position: unset !important;
+}
+
+ul.Bath_list li > div:first-child {
+    flex-direction: column;
+    align-items: start;
+    gap: 0;
+}
+
 .Downy_list {}
 
 .Downy_list li {}
