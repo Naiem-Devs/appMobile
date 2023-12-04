@@ -1,0 +1,162 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>address-details</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="shortcut icon" type="image/x-icon" href="#">
+        <!-- Place favicon.ico in the root directory -->
+        
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body class="appl">
+
+       
+    <!-- header-area START -->
+    <div class="header-area">
+        <div class="container lg">
+            <div class="row align-items-center">
+                <div class=" col-6">
+                    <div class="logo-area">
+                        <a href="index.html"><img src="assets/img/logo-v2.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class=" col-6">
+                    <div class=" close_top">
+                        <a href="#"><img src="assets/img/close-X.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="menu_item">
+                <a href="#">1. Address</a>
+            </div>
+        </div>
+        <div class="progress_line "></div>
+    </div>
+    <!-- header-area END -->
+
+
+    <main>
+        
+
+        <!--------- Section START ---------->
+        <section class="step-area ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="step-content">
+                            <h3>Let’s find your address</h3>
+                            <div class="input_blk">
+                                <label>Email</label>
+                                <input type="text" placeholder="Your email" value="namesurname@email.com">
+                            </div>
+                            <span class="reg-text">Already registered user? <a href="#">Log in</a></span>
+                            <div class="input_blk ">
+                                <label>Address</label>
+                                <div class="icon right">
+                                    <input type="text" placeholder="Start typing and select an option" value="194 Randolph St, Brooklyn, NY 11237, USA"> <a href="#"><img src="assets/img/help-circle.svg" alt=""></a>
+                                </div>
+                            </div>
+                            <a href="#" class="map_link mb_50" data-bs-toggle="modal" data-bs-target="#mapModal"><img src="assets/img/marker-pin.svg" alt=""> Map search</a>
+
+                            <div class="input_blk">
+                                <label>Address 2</label>
+                                <input type="text" placeholder="Apartment #, floor (Optional)" >
+                            </div>
+                            <div class="Address-btn">
+                                <button type="button" class="active">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.2299 1.11359C10.5152 1.03636 10.8158 1.03636 11.1011 1.11359C11.4322 1.20325 11.711 1.42213 11.9335 1.59682C11.9547 1.6135 11.9755 1.62978 11.9957 1.6455L17.6476 6.04144C17.6694 6.05835 17.6909 6.07511 17.7124 6.09172C18.0262 6.33529 18.3027 6.54988 18.5088 6.82847C18.6896 7.07295 18.8243 7.34838 18.9063 7.64121C18.9997 7.97489 18.9993 8.3249 18.9989 8.72219C18.9988 8.74929 18.9988 8.77662 18.9988 8.80417V14.8654C18.9988 15.3047 18.9988 15.6837 18.9733 15.9958C18.9464 16.3253 18.887 16.6529 18.7263 16.9683C18.4866 17.4387 18.1042 17.8211 17.6338 18.0608C17.3185 18.2215 16.9908 18.2809 16.6613 18.3078C16.3492 18.3333 15.9702 18.3333 15.531 18.3333H5.80001C5.36073 18.3333 4.98176 18.3333 4.66962 18.3078C4.34017 18.2809 4.01249 18.2215 3.69717 18.0608C3.22677 17.8211 2.84431 17.4387 2.60463 16.9683C2.44397 16.6529 2.38454 16.3253 2.35762 15.9958C2.33212 15.6837 2.33213 15.3047 2.33215 14.8654L2.33215 8.80417C2.33215 8.77661 2.33212 8.74929 2.33209 8.72218C2.33166 8.3249 2.33128 7.97489 2.42468 7.64121C2.50665 7.34838 2.64135 7.07295 2.82218 6.82847C3.02823 6.54988 3.30474 6.3353 3.6186 6.09173C3.64002 6.07511 3.6616 6.05835 3.68336 6.04144L9.33528 1.6455C9.35549 1.62978 9.37622 1.6135 9.39746 1.59682C9.61997 1.42213 9.89876 1.20325 10.2299 1.11359Z" fill="#6C737F"/>
+                                    </svg>
+                                    Home
+                                </button>
+                                <button type="button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6161 1.66675H9.3852C8.94593 1.66674 8.56692 1.66672 8.2548 1.69223C7.92534 1.71914 7.59766 1.77857 7.28234 1.93923C6.81194 2.17892 6.42949 2.56137 6.1898 3.03177C6.02914 3.34709 5.96971 3.67477 5.94279 4.00423C5.91729 4.31637 5.9173 4.69534 5.91732 5.13463L5.91732 8.33342L4.3074 8.33342C4.09708 8.33339 3.89226 8.33337 3.7188 8.34754C3.5283 8.36311 3.30352 8.39983 3.07734 8.51508C2.76373 8.67486 2.50877 8.92983 2.34898 9.24344C2.23373 9.46962 2.19701 9.6944 2.18144 9.8849C2.16727 10.0584 2.16729 10.2632 2.16732 10.4735L2.16732 16.6667C1.70708 16.6667 1.33398 17.0398 1.33398 17.5001C1.33398 17.9603 1.70708 18.3334 2.16732 18.3334H2.99833L3.00066 18.3334L3.00298 18.3334H17.9983L18.0006 18.3334L18.003 18.3334H18.834C19.2942 18.3334 19.6673 17.9603 19.6673 17.5001C19.6673 17.0398 19.2942 16.6667 18.834 16.6667L18.834 10.4734C18.834 10.2631 18.834 10.0583 18.8199 9.8849C18.8043 9.6944 18.7676 9.46962 18.6523 9.24344C18.4925 8.92983 18.2376 8.67486 17.924 8.51508C17.6978 8.39983 17.473 8.36311 17.2825 8.34754C17.109 8.33337 16.9042 8.33339 16.6939 8.33342L15.084 8.33342V5.13453C15.084 4.69529 15.084 4.31634 15.0585 4.00423C15.0316 3.67477 14.9722 3.34709 14.8115 3.03177C14.5718 2.56137 14.1894 2.17892 13.719 1.93923C13.4036 1.77857 13.076 1.71914 12.7465 1.69223C12.4344 1.66672 12.0554 1.66674 11.6161 1.66675ZM8.83398 5.83342C8.83398 5.37318 9.20708 5.00008 9.66732 5.00008H11.334C11.7942 5.00008 12.1673 5.37318 12.1673 5.83342C12.1673 6.29365 11.7942 6.66675 11.334 6.66675H9.66732C9.20708 6.66675 8.83398 6.29365 8.83398 5.83342ZM8.83398 9.16675C8.83398 8.70651 9.20708 8.33342 9.66732 8.33342H11.334C11.7942 8.33342 12.1673 8.70651 12.1673 9.16675C12.1673 9.62699 11.7942 10.0001 11.334 10.0001H9.66732C9.20708 10.0001 8.83398 9.62699 8.83398 9.16675ZM9.66732 11.6667C9.20708 11.6667 8.83398 12.0398 8.83398 12.5001C8.83398 12.9603 9.20708 13.3334 9.66732 13.3334H11.334C11.7942 13.3334 12.1673 12.9603 12.1673 12.5001C12.1673 12.0398 11.7942 11.6667 11.334 11.6667H9.66732Z" fill="#6C737F"/>
+                                      </svg>
+                                    Office
+                                </button>
+                                <button type="button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.30056 1.66675H14.3648C14.8041 1.66674 15.1831 1.66672 15.4952 1.69223C15.8247 1.71914 16.1523 1.77857 16.4677 1.93923C16.9381 2.17892 17.3205 2.56137 17.5602 3.03177C17.7209 3.34709 17.7803 3.67477 17.8072 4.00423C17.8327 4.31637 17.8327 4.69533 17.8327 5.13461V16.6667H18.666C19.1263 16.6667 19.4993 17.0398 19.4993 17.5001C19.4993 17.9603 19.1263 18.3334 18.666 18.3334H1.99935C1.53911 18.3334 1.16602 17.9603 1.16602 17.5001C1.16602 17.0398 1.53911 16.6667 1.99935 16.6667H2.83268L2.83268 5.13463C2.83267 4.69534 2.83266 4.31637 2.85816 4.00423C2.88508 3.67477 2.94451 3.34709 3.10517 3.03177C3.34485 2.56137 3.7273 2.17892 4.19771 1.93923C4.51302 1.77857 4.84071 1.71914 5.17016 1.69223C5.48229 1.66672 5.8613 1.66674 6.30056 1.66675ZM6.37435 5.00008C5.91411 5.00008 5.54102 5.37318 5.54102 5.83342C5.54102 6.29365 5.91411 6.66675 6.37435 6.66675H8.66601C9.12625 6.66675 9.49935 6.29365 9.49935 5.83342C9.49935 5.37318 9.12625 5.00008 8.66601 5.00008H6.37435ZM6.37435 8.33342C5.91411 8.33342 5.54102 8.70651 5.54102 9.16675C5.54102 9.62699 5.91411 10.0001 6.37435 10.0001H8.66601C9.12625 10.0001 9.49935 9.62699 9.49935 9.16675C9.49935 8.70651 9.12625 8.33342 8.66601 8.33342H6.37435ZM5.54102 12.5001C5.54102 12.0398 5.91411 11.6667 6.37435 11.6667H8.66601C9.12625 11.6667 9.49935 12.0398 9.49935 12.5001C9.49935 12.9603 9.12625 13.3334 8.66601 13.3334H6.37435C5.91411 13.3334 5.54102 12.9603 5.54102 12.5001ZM11.9993 5.00008C11.5391 5.00008 11.166 5.37318 11.166 5.83342C11.166 6.29365 11.5391 6.66675 11.9993 6.66675H14.291C14.7513 6.66675 15.1243 6.29365 15.1243 5.83342C15.1243 5.37318 14.7513 5.00008 14.291 5.00008H11.9993ZM11.166 9.16675C11.166 8.70651 11.5391 8.33342 11.9993 8.33342H14.291C14.7513 8.33342 15.1243 8.70651 15.1243 9.16675C15.1243 9.62699 14.7513 10.0001 14.291 10.0001H11.9993C11.5391 10.0001 11.166 9.62699 11.166 9.16675ZM11.9993 11.6667C11.5391 11.6667 11.166 12.0398 11.166 12.5001C11.166 12.9603 11.5391 13.3334 11.9993 13.3334H14.291C14.7513 13.3334 15.1243 12.9603 15.1243 12.5001C15.1243 12.0398 14.7513 11.6667 14.291 11.6667H11.9993Z" fill="#6C737F"/>
+                                      </svg>
+                                    Hotel/Airbnb
+                                </button>
+                            </div>
+                            <div class="input_blk position-relative active">
+                                <a href="#" class="help-circle"><img src="assets/img/help-circle.svg"  alt=""></a>
+                                <textarea placeholder="Pickup and delivery instructions"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------- Section End ---------->
+
+        <div class="section_btm">
+            <div class="section_btm-btn">
+                <a href="#">Back</a>
+                <a href="#" class="thm_btn">Continue <img src="assets/img/arrow-right.svg" alt=""></a>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="mapModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="map_modal">
+                        <div class="top">
+                            <div class="loc_text">
+                                <i>
+                                    <img src="assets/img/Featured-icon-4.svg" alt="">
+                                </i>
+                                <div class="">
+                                    <h5>Your location</h5>
+                                    <p>Drag the map or use search to mark the right location.</p>
+                                </div>
+                            </div>
+                            <a href="#" data-bs-dismiss="modal"><img src="assets/img/close-X.svg" alt=""></a>
+                        </div>
+                        <div style="width: 100%" class="my-4"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=manhattan+(My%20Business%20Name)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Population calculator map</a></iframe></div>
+                        <div class="btm_btns">
+                            <a href="#" class="thm_btn bordered" data-bs-dismiss="modal" >Cancel</a>
+                            <a href="#" class="thm_btn ">Save Location</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    
+		<!-- JS here --> 
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script>
+            let adBtn = document.querySelectorAll('.Address-btn button')
+
+            adBtn.forEach(adbtns => {
+                adbtns.addEventListener('click', () => {
+                    adRemove()
+                    adbtns.classList.add('active')
+                })
+            })
+            function adRemove () {
+                adBtn.forEach(adbtns => {
+                    adbtns.classList.remove('active')
+                })
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,146 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>date-and-time</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="shortcut icon" type="image/x-icon" href="#">
+        <!-- Place favicon.ico in the root directory -->
+        
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body class="appl">
+
+       
+    <!-- header-area START -->
+    <div class="header-area">
+        <div class="container lg">
+            <div class="row align-items-center">
+                <div class=" col-6">
+                    <div class="logo-area">
+                        <a href="index.html"><img src="assets/img/logo-v2.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class=" col-6">
+                    <div class=" close_top">
+                        <a href="#"><img src="assets/img/close-X.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="menu_item">
+                <a href="#">4. Date and Time</a>
+            </div>
+        </div>
+        <div class="progress_line Time"></div>
+    </div>
+    <!-- header-area END -->
+
+
+    <main>
+        
+
+        <!--------- Section START ---------->
+        <section class="step-area h_100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="step-content date-content">
+                            <h3>Let’s set the date</h3>
+                            <div class="date_blk">
+                                <div class="input_blk input_date active">
+                                    <label for="">Pickup date and time</label>
+                                    <input type="date" value="Select date and time" min="2005-01-01" max="2019-01-01">
+                                </div>
+                                <div class="input_blk input_date">
+                                    <label for="">Pickup date and time</label>
+                                    <input type="date" value="Select date and time" min="2005-01-01" max="2019-01-01">
+                                </div>
+                                <div class="switch_blk">
+                                    <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                    </label>
+                                    <div class="">
+                                        <h6>Same day delivery</h6>
+                                        <p>Available only for Wash & Fold service </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <hr>
+                            <div class="">
+                                <h5>Choose your frequency</h5>
+                                <p>Keep laundry off your todo list with automatically <br> scheduled bookings. Reschedule, or cancel anytime.</p>
+                            </div>
+
+                            <div class="svc_content">
+                                <div class="svc_blk " >
+                                    <label for="Wash" >
+                                        <h5> One time</h5>
+                                    </label>
+                                </div>
+                                <div class="svc_blk active" >
+                                    <label for="Wash" >
+                                        <h5> Weekly</h5>
+                                        <span>Save 10%</span>
+                                    </label>
+                                </div>
+                                <div class="svc_blk">
+                                    <label for="Dry">
+                                        <h5>Biweekly</h5>
+                                        <span>Save 7%</span>
+                                    </label>
+                                </div>
+                                <div class="svc_blk">
+                                    <label for="iron">
+                                        <h5> Monthly</h5>
+                                        <span>Save 5%</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------- Section End ---------->
+
+        <div class="section_btm">
+            <div class="section_btm-btn">
+                <a href="#">Back</a>
+                <a href="#" class="thm_btn">Continue <img src="assets/img/arrow-right.svg" alt=""></a>
+            </div>
+        </div>
+
+    </main>
+
+    
+		<!-- JS here --> 
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script>
+            let adBtn = document.querySelectorAll('.svc_blk')
+
+            adBtn.forEach(adbtns => {
+                adbtns.addEventListener('click', () => {
+                    adRemove()
+                    adbtns.classList.add('active')
+                })
+            })
+            function adRemove () {
+                adBtn.forEach(adbtns => {
+                    adbtns.classList.remove('active')
+                })
+            }
+        </script>
+    </body>
+</html>

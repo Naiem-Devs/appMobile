@@ -1,0 +1,159 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .menu-area ul{
+        gap: var(--f32);
+    }
+    .checkout-area:after{
+        display: none;
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .checkout-area:after{
+        display: none;
+    }
+    .checkout_wrp {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .checkout_blk.left {
+        margin: auto;
+    }
+    
+    .checkout_blk.right {
+        margin: auto;
+        max-width: 500px;
+        width: 100%;
+    }
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .progress_line{
+    width: 20%;
+}
+.h_100{height: calc(100vh - 195px);}
+
+.step-area{
+    padding: 40px 0;
+}
+.Address-btn {
+    flex-direction: column;
+}
+.Individual-content .ind_text {
+    flex-direction: column;
+    gap: 10px 0;
+}
+.Individual-content ul li {
+    position: relative;
+}
+
+.Individual-content ul li p {
+    position: unset;
+    left: 0;
+    top: 28px;
+}
+
+.Individual-content ul {
+    gap: 28px;
+}
+
+ul.ws_list p {}
+
+ul.new_list p {
+    position: absolute !important;
+}
+.Individual-content .flex.border_style {
+    flex-direction: row;
+}
+
+.Individual-content .flex.border_style p {
+    margin-left: 0;
+    margin-bottom: 0;
+    color: var(--gray50);
+}
+.step-content h3 {margin-bottom: 30px;}
+
+.step-content h3.flex {}
+
+.step-content h3 i {
+}
+.date-content .svc_content {
+    flex-direction: column;
+}
+
+.date-content p br {
+    display: none;
+}
+.checkout-area:after{
+    display: none;
+}
+
+.checkout_wrp {
+    flex-direction: column;
+    gap: 40px;
+}
+
+.checkout_blk.left {
+    margin: auto;
+}
+
+.checkout_blk.right {
+    margin: auto;
+    max-width: 500px;
+    width: 100%;
+}
+.checkout-area {
+    margin: 50px 0;
+}
+.hero_content {
+    padding: 30px;
+}
+
+.hero-area {
+    border-radius: 0 0 var(--f40) var(--f40);
+}
+
+.hero_content .flex {
+    flex-direction: column;
+}
+
+.hero_content .flex a {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.two__link {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 24px;
+}
+
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.header-area .container.lg {width: 100%;}
+
+ 
+}

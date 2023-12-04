@@ -1,0 +1,64 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>address-details</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="shortcut icon" type="image/x-icon" href="#">
+        <!-- Place favicon.ico in the root directory -->
+        
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body class="appl modal-open">
+
+  
+
+
+    <main>
+        
+
+
+
+        <!-- Modal -->
+        <div class="modal fade show d-block" id="mapModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="map_modal">
+                        <div class="top">
+                            <div class="loc_text ">
+                                <i>
+                                    <img src="assets/img/Featured-icon-4.svg" alt="">
+                                </i>
+                                <div class="">
+                                    <h5>Your location</h5>
+                                    <p>Drag the map or use search to mark the right location.</p>
+                                </div>
+                            </div>
+                            <a href="#" data-bs-dismiss="modal"><img src="assets/img/close-X.svg" alt=""></a>
+                        </div>
+                        <div style="width: 100%" class="my-4"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=manhattan+(My%20Business%20Name)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Population calculator map</a></iframe></div>
+                        <div class="btm_btns flex-column">
+                            <a href="#" class="thm_btn  w-100">Save Location</a>
+                            <a href="#" class="thm_btn bordered w-100" data-bs-dismiss="modal" >Cancel</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    
+		<!-- JS here --> 
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <div class="modal-backdrop fade show"></div>
+    </body>
+</html>
